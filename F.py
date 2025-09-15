@@ -7,7 +7,6 @@ import logging
 
 # Logging setup
 logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(name)
 
 # States for conversation (withdrawal amount input)
 WAITING_WITHDRAW_AMOUNT = 1
